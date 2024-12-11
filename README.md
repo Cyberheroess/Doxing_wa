@@ -91,3 +91,18 @@ Ikuti langkah-langkah berikut untuk menginstal script:
    Buka terminal dan navigasikan ke direktori tempat Anda menyimpan script. Instal semua dependensi yang diperlukan dengan perintah:
    ```bash
    pip install requests flask selenium twilio
+   ```
+# Setel Variabel Lingkungan
+> Anda perlu mengatur variabel lingkungan untuk kredensial Twilio Anda jika Anda ingin menggunakan fitur pengiriman pesan. Berikut adalah langkah-langkah untuk menyetel variabel lingkungan:
+
+*Buka Terminal* : Buka terminal atau command prompt di sistem operasi Anda.
+
+*Setel Variabel* : Jalankan perintah berikut untuk menyetel variabel lingkungan:
+
+```bash
+export TWILIO_EMAIL='your_twilio_email'
+export TWILIO_PASSWORD='your_twilio_password'
+```
+Gantilah your_twilio_email dan your_twilio_password dengan kredensial yang sesuai. Jika Anda tidak menggunakan Twilio, Anda dapat melewati langkah ini.
+
+> Catatan: Variabel lingkungan ini hanya akan berlaku untuk sesi terminal saat ini. Jika Anda ingin menyimpannya secara permanen, Anda dapat menambahkannya ke file konfigurasi shell Anda (misalnya, .bashrc, .bash_profile, atau .zshrc
