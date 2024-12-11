@@ -1,4 +1,5 @@
 # <span style="color:#ff6347;">🚀 **Doxing WA**</span> - **OSINT WhatsApp Tracker** <span style="color:#ff6347;">🔍</span>
+![Uploading 17338966752836731961566911678352.jpg…]()
 
 **Doxing WA** adalah alat **OSINT (Open-Source Intelligence)** yang memungkinkan Anda untuk melacak nomor WhatsApp target dan mengumpulkan berbagai informasi terkait secara otomatis. Script ini juga terintegrasi dengan **Twilio** untuk pengiriman link pelacakan dan penggunaan **Flask server** untuk menerima data IP dan User-Agent dari target.
 
