@@ -18,10 +18,6 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>📦 Instalasi Modul Otomatis</strong></td>
-      <td>Semua dependensi akan diinstal otomatis menggunakan <code>requirements.txt</code>.</td>
-    </tr>
-    <tr>
       <td><strong>🛠️ Kredensial Twilio Otomatis</strong></td>
       <td>Pengambilan SID dan Auth Token Twilio tanpa perlu input manual.</td>
     </tr>
