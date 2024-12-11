@@ -6,11 +6,36 @@
 
 ## ✨ **Fitur Utama** <span style="color:#32cd32;">🌟</span>
 
-- 📦 **Instalasi Modul Otomatis**: Semua dependensi akan diinstal otomatis.
-- 🛠️ **Kredensial Twilio Otomatis**: Pengambilan SID dan Auth Token Twilio tanpa perlu input manual.
-- 📲 **Pengiriman Link Pelacakan**: Link pelacakan WhatsApp akan dikirimkan ke target.
-- 🌍 **IP Publik Otomatis**: Menemukan IP publik target secara otomatis.
-- 🖥️ **Flask Server**: Server untuk menerima dan memproses data seperti IP, User-Agent, dan lainnya.
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr style="background-color:#ffebcd;">
+      <th style="color:#ff6347;">Fitur</th>
+      <th style="color:#32cd32;">Deskripsi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>📦 Instalasi Modul Otomatis</strong></td>
+      <td>Semua dependensi akan diinstal otomatis menggunakan <code>requirements.txt</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>🛠️ Kredensial Twilio Otomatis</strong></td>
+      <td>Pengambilan SID dan Auth Token Twilio tanpa perlu input manual.</td>
+    </tr>
+    <tr>
+      <td><strong>📲 Pengiriman Link Pelacakan</strong></td>
+      <td>Link pelacakan WhatsApp akan dikirimkan ke target untuk melacak informasi.</td>
+    </tr>
+    <tr>
+      <td><strong>🌍 IP Publik Otomatis</strong></td>
+      <td>Menemukan IP publik target secara otomatis dan menampilkannya.</td>
+    </tr>
+    <tr>
+      <td><strong>🖥️ Flask Server</strong></td>
+      <td>Server untuk menerima dan memproses data seperti IP, User-Agent, dan lainnya.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -27,4 +52,3 @@ Sebelum memulai, pastikan Anda sudah memiliki perangkat dan pengaturan berikut:
    ```bash
    git clone https://github.com/Cyberheroess/Doxing_wa.git
    cd Doxing_wa
-   ```
