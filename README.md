@@ -58,20 +58,7 @@ python server.py
 ```
 Script ini dirancang untuk mengumpulkan informasi tentang pengunjung situs web, termasuk alamat IP, user agent, dan lokasi geolokasi. Data yang dikumpulkan disimpan dalam database SQLite dan dapat diakses melalui antarmuka web.
 
-## Daftar Isi
-
-1. [Prasyarat](#prasyarat)
-2. [Instalasi](#instalasi)
-3. [Konfigurasi](#konfigurasi)
-   - [Setel Variabel Lingkungan](#setel-variabel-lingkungan)
-   - [Konfigurasi Database](#konfigurasi-database)
-4. [Menjalankan Script](#menjalankan-script)
-5. [Mengakses Antarmuka Web](#mengakses-antarmuka-web)
-6. [Contoh Output](#contoh-output)
-7. [Menghentikan Server](#menghentikan-server)
-8. [Catatan Penting](#catatan-penting)
-
-## Prasyarat
+## Prasyarat✏️
 
 Sebelum memulai, pastikan Anda memiliki:
 
