@@ -80,7 +80,7 @@ Sebelum memulai, pastikan Anda memiliki:
 - **Google Chrome**: Pastikan Anda memiliki browser Google Chrome yang terinstal.
 - **ChromeDriver**: Unduh ChromeDriver yang sesuai dengan versi Chrome Anda dari [sini](https://sites.google.com/chromium.org/driver/).
 
-## Instalasi
+## Instalasi📂
 
 Ikuti langkah-langkah berikut untuk menginstal script:
 
@@ -92,12 +92,12 @@ Ikuti langkah-langkah berikut untuk menginstal script:
    ```bash
    pip install requests flask selenium twilio
    ```
-# Setel Variabel Lingkungan
+# Setel Variabel Lingkungan🤖
 > Anda perlu mengatur variabel lingkungan untuk kredensial Twilio Anda jika Anda ingin menggunakan fitur pengiriman pesan. Berikut adalah langkah-langkah untuk menyetel variabel lingkungan:
 
-*Buka Terminal* : Buka terminal atau command prompt di sistem operasi Anda.
+*Buka Terminal❗🤖* : Buka terminal atau command prompt di sistem operasi Anda.
 
-*Setel Variabel* : Jalankan perintah berikut untuk menyetel variabel lingkungan:
+*Setel Variabel📝* : Jalankan perintah berikut untuk menyetel variabel lingkungan:
 
 ```bash
 export TWILIO_EMAIL='your_twilio_email'
