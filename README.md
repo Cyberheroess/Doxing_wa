@@ -51,3 +51,43 @@ Sebelum memulai, pastikan Anda sudah memiliki perangkat dan pengaturan berikut:
    ```bash
    git clone https://github.com/Cyberheroess/Doxing_wa.git
    cd Doxing_wa
+   ```
+   # 💻versi server flask
+```bash
+python server.py
+```
+Script ini dirancang untuk mengumpulkan informasi tentang pengunjung situs web, termasuk alamat IP, user agent, dan lokasi geolokasi. Data yang dikumpulkan disimpan dalam database SQLite dan dapat diakses melalui antarmuka web.
+
+## Daftar Isi
+
+1. [Prasyarat](#prasyarat)
+2. [Instalasi](#instalasi)
+3. [Konfigurasi](#konfigurasi)
+   - [Setel Variabel Lingkungan](#setel-variabel-lingkungan)
+   - [Konfigurasi Database](#konfigurasi-database)
+4. [Menjalankan Script](#menjalankan-script)
+5. [Mengakses Antarmuka Web](#mengakses-antarmuka-web)
+6. [Contoh Output](#contoh-output)
+7. [Menghentikan Server](#menghentikan-server)
+8. [Catatan Penting](#catatan-penting)
+
+## Prasyarat
+
+Sebelum memulai, pastikan Anda memiliki:
+
+- **Python 3.x**: Pastikan Python terinstal di sistem Anda. Anda dapat mengunduhnya dari [python.org](https://www.python.org/downloads/).
+- **Pip**: Pip biasanya sudah terinstal bersama Python. Anda dapat memeriksa dengan menjalankan `pip --version`.
+- **Google Chrome**: Pastikan Anda memiliki browser Google Chrome yang terinstal.
+- **ChromeDriver**: Unduh ChromeDriver yang sesuai dengan versi Chrome Anda dari [sini](https://sites.google.com/chromium.org/driver/).
+
+## Instalasi
+
+Ikuti langkah-langkah berikut untuk menginstal script:
+
+1. **Unduh Script**:
+   Unduh file script dari sumber yang Anda miliki dan simpan di direktori pilihan Anda.
+
+2. **Instal Dependensi**:
+   Buka terminal dan navigasikan ke direktori tempat Anda menyimpan script. Instal semua dependensi yang diperlukan dengan perintah:
+   ```bash
+   pip install requests flask selenium twilio
